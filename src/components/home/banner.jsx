@@ -29,7 +29,7 @@ const Banner = () => {
                 </div>
             </div>
             <div className="absolute w-3/12 right-0 top-[55px] "></div>
-            <div className="relative w-full mx-auto pt-[50px]">
+            <div className="relative w-full mx-auto py-[50px]">
                 <div className="w-full mx-auto lg:w-7/12">
                     <div className="shadow-[0 4px 30px rgba(65,84,175,.13)] rounded-[12px]  bg-white px-[28px] py-[18px] w-full">
                         <div className="flex items-center space-x-2">
