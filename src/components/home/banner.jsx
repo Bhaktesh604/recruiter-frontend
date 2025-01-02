@@ -49,7 +49,7 @@ const Banner = () => {
                             </div>
                         </div>
                         <div className="flex flex-col items-start w-full lg:flex-row">
-                            <div className="flex-1 mr-[20px]">
+                            <div className="w-full flex-1 mr-[20px]">
                                 <div className="font-medium capitalize text-start mb-1.5">
                                     select job title
                                 </div>
@@ -57,7 +57,7 @@ const Banner = () => {
                                     <input type="text" className='h-[40px] text-[14px] text-[#333] w-full bg-white shadow-[inset 0 1px 1px rgba(0,0,0,.075)]  px-[12px] py-[6px] rounded-[4px] border border-[#ccc]' placeholder='Ex.Bank office job' />
                                 </div>
                             </div>
-                            <div className="flex-1 mr-[20px]">
+                            <div className="w-full flex-1 mr-[20px]">
                                 <div className="font-medium capitalize text-start mb-1.5">
                                     select city
                                 </div>
