@@ -22,7 +22,7 @@ const Banner = () => {
                 <div className="relative w-full h-full mx-auto mt-6 lg:w-7/12 lg:h-[20rem]">
                     <img src="http://resources.workindia.in/employer/assets/img/landing_hero.png" className='object-contain w-full h-full aspect-video' alt="" />
                 </div>
-                <div className="relative flex w-full mx-auto mt-6 lg:w-5/12 ">
+                <div className="relative flex justify-around w-full mx-auto mt-6 lg:w-5/12 ">
 
                     <Button label='hire now' to='/hire' />
                     <Button label='get a job' to='jobs' />

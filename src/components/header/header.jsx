@@ -26,8 +26,6 @@ const Header = () => {
         setisopenmenu(!isopenmenu);
     }
     const links = [
-        // { id: 1, labal: "apply now", path: "/aboutpage" },
-        // { id: 2, labal: "hire now", path: "/service" },
         { id: 3, labal: (<><FaUserAlt />  Login</>), path: "/login" },
 
     ]
@@ -81,10 +79,13 @@ const Header = () => {
                                     {links.map((link, id) => {
 
                                         return (
-                                            <li className='relative py-[7px]' key={id}>
-                                                <a className={`text-[20px] capitalize   duration-1000 my-[5px] mx-[15px] font-medium p-[15px] `} to={link.path}>
+                                            <li className="relative " key={id}>
+                                                <Link
+                                                    className={` h-[40px] w-[100px]  leading-0 flex items-center justify-center border-2 border-[#2f51b5] rounded-lg text-[#2f51b5] hover:bg-[#2f51b5] duration-1000 hover:text-white `}
+                                                    to={link.path}
+                                                >
                                                     {link.labal}
-                                                </a>
+                                                </Link>
                                             </li>
                                         )
                                     })}

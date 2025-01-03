@@ -34,7 +34,7 @@ const Collaboration = () => {
     return (
         <div className='py-[50px]' >
             <div className="container mx-auto">
-                <div className="w-full my-[2rem] flex item-center flex-col xl:flex-row justify-between">
+                <div className="w-full my-[2rem] gap-[50px] flex item-center flex-col xl:flex-row justify-between">
                     {images.map((data, index) => {
                         return (
                             <div className="w-full my-[20px] xl:w-[100px] xl:my-[20px] h-[50px] flex items-center justify-center relative" key={index} >
