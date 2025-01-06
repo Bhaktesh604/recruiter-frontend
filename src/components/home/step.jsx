@@ -1,6 +1,6 @@
 import React from 'react'
 import vector_1 from '../../assets/image/Vector_1.svg'
-import vector_2 from '../../assets/image/Vector_2.svg'
+import vector_2 from '../../assets/image/Vector_4.svg'
 import img_1 from '../../assets/image/post-a-job.svg'
 import img_2 from '../../assets/image/get-verified.svg'
 import img_3 from '../../assets/image/get-calls-hire.svg'
@@ -56,7 +56,7 @@ const Step = () => {
                 </div>
             </div>
             <div className="relative w-full">
-                <img src={vector_2} className='w-full h-full' alt="" />
+                <img src={vector_2} className='w-full h-full border-none' alt="" />
             </div>
 
         </div>
