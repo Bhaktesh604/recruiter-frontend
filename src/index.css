@@ -17,7 +17,13 @@ code {
 @tailwind utilities;
 
 @layer utilities{
+ .swiper{
+    overflow: visible;
+  }
   #root{
     overflow-x:hidden;
   }
+}
+@layer components{
+   
 }
