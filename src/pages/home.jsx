@@ -4,6 +4,7 @@ import Collaboration from '../components/home/collaboration'
 import Webuser from '../components/home/webuser'
 import Step from '../components/home/step'
 import Setisfation from '../components/home/setisfation'
+import Review from '../components/home/review'
 const Home = () => {
     return (
         <div className='' >
@@ -12,6 +13,7 @@ const Home = () => {
             <Webuser />
             <Step />
             <Setisfation />
+            <Review />
         </div>
     )
 }
