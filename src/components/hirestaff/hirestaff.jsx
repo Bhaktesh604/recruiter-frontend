@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Routerlinks from '../ui/routerlinks'
 import Button from '../ui/button';
-const Applyforjob = () => {
+const Hirestaff = () => {
     const [search, setSearch] = useState('');
     const [isOpenOption, setIsOpenOption] = useState(false);
     const dropdownRef = useRef(null);
@@ -343,4 +343,4 @@ const Applyforjob = () => {
     )
 }
 
-export default Applyforjob
+export default Hirestaff

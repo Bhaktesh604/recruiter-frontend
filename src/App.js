@@ -5,6 +5,7 @@ import Home from './pages/home';
 import PageTitle from './components/pagetitle';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Applyjobpage from './pages/applyjobpage';
+import Hirestaffpage from './pages/hirestaffpage';
 function App() {
   return (
     <>
@@ -21,6 +22,12 @@ function App() {
             <>
               <PageTitle title="applyjob" />
               <Applyjobpage />
+            </>
+          } />
+          <Route path='/hirestaffpage' element={
+            <>
+              <PageTitle title="hirestaffpage" />
+              <Hirestaffpage />
             </>
           } />
         </Routes>
