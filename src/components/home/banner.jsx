@@ -24,7 +24,7 @@ const Banner = () => {
                 </div>
                 <div className="relative flex justify-around w-full mx-auto mt-6 lg:w-5/12 ">
 
-                    <Button label='hire now' to='/hire' />
+                    <Button label='hire now' to='/hirestaffpage' />
                     <Button label='get a job' to='/applyjob' />
                 </div>
             </div>

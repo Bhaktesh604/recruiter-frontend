@@ -125,18 +125,18 @@ const Applyforjob = () => {
         <div className='py-[100px]' >
             <div className="container mx-auto">
                 <div className="flex flex-wrap justify-center">
-                    <div className="w-8/12   px-[15px]">
+                    <div className="w-7/12   px-[15px]">
                         <div className="flex items-center justify-between">
                             <div className="">
                                 <p className='font-sm text-[#3f51b5]' >Welcome to reekroot! </p>
                                 <h2 className='mb-[20px] text-[#05264E] text-[36px] leading-[45px] font-bold font_Plus_Jakarta_Sans' >Apply for job now</h2>
                             </div>
                             <div className="">
-                                <Routerlinks />
+                                <Routerlinks label='hire staff' to='/hirestaffpage' />
                             </div>
                         </div>
                     </div>
-                    <div className="w-full md:w-8/12   px-[15px] bg-[#f6f6f6]">
+                    <div className="w-full md:w-7/12   px-[15px] bg-[#f6f6f6]">
                         <div className="relative flex flex-col break-words bg-clip-border border-1 border-[rgba(0,0,0,.125)] rounded-[.25rem]">
                             <div className="flex-1 p-[1rem]">
                                 <form action="">

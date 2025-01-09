@@ -125,50 +125,50 @@ const Hirestaff = () => {
         <div className='py-[100px]' >
             <div className="container mx-auto">
                 <div className="flex flex-wrap justify-center">
-                    <div className="w-8/12   px-[15px]">
+                    <div className="w-7/12   px-[15px]">
                         <div className="flex items-center justify-between">
                             <div className="">
                                 <p className='font-sm text-[#3f51b5]' >Welcome to reekroot! </p>
                                 <h2 className='mb-[20px] text-[#05264E] text-[36px] leading-[45px] font-bold font_Plus_Jakarta_Sans' >Hire Staff</h2>
                             </div>
                             <div className="">
-                                <Routerlinks to='applyjob' />
+                                <Routerlinks label='apply job' to='/applyjob' />
                             </div>
                         </div>
                     </div>
-                    <div className="w-full md:w-8/12   px-[15px] bg-[#f6f6f6]">
+                    <div className="w-full md:w-7/12   px-[15px] bg-[#f6f6f6]">
                         <div className="relative flex flex-col break-words bg-clip-border border-1 border-[rgba(0,0,0,.125)] rounded-[.25rem]">
                             <div className="flex-1 p-[1rem]">
                                 <form action="">
                                     <div className="relative mb-[1rem] flex flex-wrap ">
-                                        <label htmlFor="" className='text-[14px] px-[12px] py-[7px] w-full md:w-4/12' >Need Job ?</label>
-                                        <div className="w-full md:w-8/12 mx-auto flex items-center  px-[15px]">
-                                            <label className="md:w-3/12 py-[7px] mr-[15px] leading-[1.5] flex items-center capitalize "  >
-                                                <input type="radio" name='yes' className='checked:bg-[#3f51b5] checked:border checked:border-[#3f51b5] h-[24px] w-[24px] mr-[5px] text-[14px]' />
-                                                <span>yes</span>
-                                            </label>
-                                            <label className="md:w-3/12 py-[7px] mr-[15px] leading-[1.5] flex items-center capitalize "  >
-                                                <input type="radio" name='no' className='checked:bg-[#3f51b5] checked:border checked:border-[#3f51b5] h-[24px] w-[24px] mr-[5px] text-[14px]' />
-                                                <span>no</span>
-                                            </label>
+                                        <label htmlFor="fullname" className='text-[14px] px-[12px] py-[7px] w-full md:w-4/12' >Enter You Business Name</label>
+                                        <div className="w-full md:w-6/12 flex items-center  px-[15px]">
+                                            <input type="text" name='fullname' className=' w-full h-[50px] text-[14px] bg-white border border-[#E0E6F6]  focus:border focus:border-[#3f51b5] focus:ring-1 focus:ring-[#3f51b5] rounded-[4px] px-[20px] py-[10px]' placeholder='Enter You Business Name' />
+                                        </div>
+
+                                    </div> <div className="relative mb-[1rem] flex flex-wrap ">
+                                        <label htmlFor="fullname" className='text-[14px] px-[12px] py-[7px] w-full md:w-4/12' >Enter You Full Name</label>
+                                        <div className="w-full md:w-6/12 flex items-center  px-[15px]">
+                                            <input type="text" name='fullname' className=' w-full h-[50px] text-[14px] bg-white border border-[#E0E6F6]  focus:border focus:border-[#3f51b5] focus:ring-1 focus:ring-[#3f51b5] rounded-[4px] px-[20px] py-[10px]' placeholder='Enter You Full Name' />
                                         </div>
 
                                     </div>
                                     <hr className='my-[16px]' />
                                     <div className="relative mb-[1rem] flex flex-wrap ">
-                                        <label htmlFor="fullname" className='text-[14px] px-[12px] py-[7px] w-full md:w-4/12' >Enter Your Full Name</label>
+                                        <label htmlFor="fullname" className='text-[14px] px-[12px] py-[7px] w-full md:w-4/12' >Enter Your Mobile Number</label>
                                         <div className="w-full md:w-6/12 flex items-center  px-[15px]">
-                                            <input type="text" name='fullname' className=' w-full h-[50px] text-[14px] bg-white border border-[#E0E6F6]  focus:border focus:border-[#3f51b5] focus:ring-1 focus:ring-[#3f51b5] rounded-[4px] px-[20px] py-[10px]' placeholder='Enter Your Full Name' />
+                                            <input type="text" name='fullname' className=' w-full h-[50px] text-[14px] bg-white border border-[#E0E6F6]  focus:border focus:border-[#3f51b5] focus:ring-1 focus:ring-[#3f51b5] rounded-[4px] px-[20px] py-[10px]' placeholder='Enter Your Mobile Number' />
                                         </div>
 
                                     </div>
                                     <div className="relative mb-[1rem] flex flex-wrap ">
-                                        <label htmlFor="contactnumber" className='text-[14px] px-[12px] py-[7px] w-full md:w-4/12' >contact number</label>
+                                        <label htmlFor="contactnumber" className='text-[14px] px-[12px] py-[7px] w-full md:w-4/12' >Enter Your Email ID
+                                        </label>
                                         <div className="w-full md:w-6/12 flex items-center  px-[15px]">
-                                            <input type="text" name='contactnumber' className=' w-full h-[50px] text-[14px] bg-white border border-[#E0E6F6]  focus:border focus:border-[#3f51b5] focus:ring-1 focus:ring-[#3f51b5] rounded-[4px] px-[20px] py-[10px]' placeholder='Enter Your contact number' />
+                                            <input type="text" name='contactnumber' className=' w-full h-[50px] text-[14px] bg-white border border-[#E0E6F6]  focus:border focus:border-[#3f51b5] focus:ring-1 focus:ring-[#3f51b5] rounded-[4px] px-[20px] py-[10px]' placeholder='Enter Your Email ID' />
                                         </div>
-
                                     </div>
+                                    <hr className='my-[16px]' />
                                     <div className="relative mb-[1rem] flex flex-wrap ">
                                         <label htmlFor="" className='text-[14px] px-[12px] py-[7px] w-full md:w-4/12' >Gender</label>
                                         <div className="w-full md:w-8/12 mx-auto flex items-center  px-[15px]">
@@ -180,6 +180,10 @@ const Hirestaff = () => {
                                                 <input type="radio" name='female' className='checked:bg-[#3f51b5] checked:border checked:border-[#3f51b5] h-[24px] w-[24px] mr-[5px] text-[14px]' />
                                                 <span>female</span>
                                             </label>
+                                            <label className="md:w-3/12 py-[7px] mr-[15px] leading-[1.5] flex items-center capitalize "  >
+                                                <input type="radio" name='female' className='checked:bg-[#3f51b5] checked:border checked:border-[#3f51b5] h-[24px] w-[24px] mr-[5px] text-[14px]' />
+                                                <span>both</span>
+                                            </label>
                                         </div>
 
                                     </div>
@@ -189,7 +193,7 @@ const Hirestaff = () => {
                                     {/* Job Categories Multi-Select */}
                                     <div className="relative flex flex-wrap mb-4">
                                         <label htmlFor="jobcategories" className="w-full px-3 py-2 text-sm md:w-4/12">
-                                            Job Categories
+                                            Enter Your Keyword
                                         </label>
                                         <div className="relative flex flex-col w-full px-4 md:w-6/12">
                                             <input
@@ -226,15 +230,11 @@ const Hirestaff = () => {
                                             )}
                                         </div>
                                     </div>
-                                    <div className="relative mb-[1rem] flex flex-wrap ">
-                                        <label htmlFor="uploadresume" className='text-[14px] px-[12px] py-[7px] w-full md:w-4/12' >upload resume</label>
-                                        <div className="w-full md:w-6/12 flex items-center  px-[15px]">
-                                            <input type="file" name='uploadresume' className=' w-full h-[50px] text-[14px] bg-white border border-[#E0E6F6]  focus:border focus:border-[#3f51b5] focus:ring-1 focus:ring-[#3f51b5] rounded-[4px] px-[20px] py-[10px]' placeholder='Enter Your Full Name' />
-                                        </div>
-                                    </div>
+                                    <hr className='my-[16px]' />
+
                                     <div className="relative flex flex-wrap mb-4">
                                         <label htmlFor="jobcategories" className="w-full px-3 py-2 text-sm md:w-4/12">
-                                            City
+                                            Required Experiance
                                         </label>
                                         <div className="relative flex flex-col w-full px-4 md:w-6/12">
                                             <input
@@ -277,7 +277,7 @@ const Hirestaff = () => {
                                     <hr className='my-[16px]' />
                                     <div className="relative flex flex-wrap mb-4">
                                         <label htmlFor="jobcategories" className="w-full px-3 py-2 text-sm md:w-4/12">
-                                            Job Categories
+                                            Enter Your City
                                         </label>
                                         <div className="relative flex flex-col w-full px-4 md:w-6/12">
                                             <input
@@ -313,7 +313,7 @@ const Hirestaff = () => {
                                     {selectedCity && (
                                         <div className="relative flex flex-wrap mb-4">
                                             <label htmlFor="jobcategories" className="w-full px-3 py-2 text-sm md:w-4/12">
-                                                Job Area
+                                                Enter Your Area
                                             </label>
                                             <div className="relative flex flex-col w-full px-4 md:w-6/12">
 
@@ -330,6 +330,13 @@ const Hirestaff = () => {
                                             </div>
                                         </div>
                                     )}
+                                    <div className="relative mb-[1rem] flex flex-wrap ">
+                                        <label htmlFor="contactnumber" className='text-[14px] px-[12px] py-[7px] w-full md:w-4/12' >Enter Your Address
+                                        </label>
+                                        <div className="w-full md:w-6/12 flex items-center  px-[15px]">
+                                            <input type="text" name='contactnumber' className=' w-full h-[50px] text-[14px] bg-white border border-[#E0E6F6]  focus:border focus:border-[#3f51b5] focus:ring-1 focus:ring-[#3f51b5] rounded-[4px] px-[20px] py-[10px]' placeholder='Enter Your Address' />
+                                        </div>
+                                    </div>
                                     <div className="flex justify-center">
                                         <Button label='submit' />
                                     </div>
