@@ -4,6 +4,7 @@ import Header from './components/header/header';
 import Home from './pages/home';
 import PageTitle from './components/pagetitle';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Applyjobpage from './pages/applyjobpage';
 function App() {
   return (
     <>
@@ -14,6 +15,12 @@ function App() {
             <>
               <PageTitle title="Home" />
               <Home />
+            </>
+          } />
+          <Route path='/applyjob' element={
+            <>
+              <PageTitle title="applyjob" />
+              <Applyjobpage />
             </>
           } />
         </Routes>

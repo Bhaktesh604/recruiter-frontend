@@ -37,9 +37,9 @@ const Header = () => {
             >
                 <div className="w-full">
                     <div className="relative flex items-center justify-between z-[5]">
-                        <a className="inline-block me-[16px] py-[8px]" href="/">
+                        <Link className="inline-block me-[16px] py-[8px]" href="/">
                             <img src={'https://resources.workindia.in/employer/assets/icon/workindia-full.png'} className="h-[40px]" alt="Logo" />
-                        </a>
+                        </Link>
                         <div className="items-center flex-grow hidden lg:flex">
                             <ul className="flex flex-row gap-4 ml-auto mr-[3rem]">
                                 {links.map((link, id) => {
